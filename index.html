@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" class="page-1">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/camera.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-1.2.1.js"></script>
+   <script src="js/jquery.simplr.smoothscroll.min.js"></script>
+ <script src="js/owl.carousel.js"></script>
+ <script src="js/camera.js"></script>
+ <script src="js/jquery.equalheights.js"></script> 
+<!--[if (gt IE 9)|!(IE)]><!-->
+  <script src="js/wow/wow.js"></script>
+  <script>
+    $(document).ready(function () {       
+      if ($('html').hasClass('desktop')) {
+        new WOW().init();
+      }   
+    });
+
+  </script>
+  <!--<![endif]-->
+ <!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+<script>
+
+      $(window).load(function(){
+      $('#camera_wrap').camera({
+        loader: false,
+        pagination: false ,
+        minHeight: '300',
+        thumbnails: false,
+        height: '23.33333333333333%',
+        caption: false,
+        navigation: false,
+        fx: 'scrollLeft',
+
+      });
+       });
+
+    $(document).ready(function(){
+        var owl = $("#owl"); 
+            owl.owlCarousel({
+            items : 1, //1 items above 1000px browser width
+            itemsDesktop : [979,1], //1 items between 1000px and 901px
+            itemsDesktopSmall : [767, 1], // betweem 900px and 601px
+            itemsTablet: [700, 1], //1 items between 600 and 0
+            itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+            navigation : false,
+            pagination :  true
+            });
+    });
+
+
+  </script>
+
+ 
+</head>
+<body>
+
+  <!--========================================================
+                            HEADER 
+  =========================================================-->
+
+  <header id="header">
+
+    <div class="container">
+      <div class="header-top ">
+                  <div class="header-logo">
+                    <a href="index.html"><div class="icon"><i class="fa fa-asterisk"></i></div><div class="header-info">
+                        <h1>Frozen<br><span class="blue">food</span></h1>
+                       
+                      </div>
+                      <div class="clear"></div>
+                    </a>
+                  </div>
+                 
+              
+
+
+                <div class="header-contacts">
+                  <div class="contact-icon"><img src="images/phone.png" alt="post image"></div>
+                  <div class="contact-info">
+                    <div class="blue">Your first visit? Call for info</div>
+                    <div class="phone">+1-234-567-8900</div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+
+                <div class="clear"></div>
+        </div>
+    </div>
+    
+                
+<div id="stuck_container">
+
+                <div class=" header-bottom align-center">
+                
+
+                  <div class="container">
+                    
+                        <div class="header-navigation">
+                        <nav>
+                          <ul class="sf-menu">
+                            <li class="current" ><a href="index.html">Home</a></li>
+                            <li  ><a href="index-1.html">About</a></li>
+                            <li><a href="index-2.html">Products</a>
+                                  <ul>
+                                    <li><a href="#">Dolore ipsu</a></li>
+                                    <li><a href="#">Consecte</a>
+                                      <ul>
+                                        <li><a href="#">Dolore ipsu</a></li>
+                                        <li><a href="#">Consecte</a></li>
+                                        <li><a href="#">Elit Conseq</a></li>
+                                       
+                                      </ul>
+                                    </li>
+                                    <li><a href="#">Elit Conseq</a></li>
+                                    
+                                     
+                                  </ul>
+
+
+                            </li>
+                            <li><a href="index-3.html">Gallery</a></li>
+                            <li><a href="index-4.html"> contacts</a></li>
+                      
+                          </ul>
+                        </nav>
+                  <div class="clear"></div>
+
+                </div>
+                  </div>
+                 
+                  </div>
+                </div>
+
+
+  </header>
+<!--========================================================
+                            CONTENT 
+  =========================================================-->
+  
+  <section id="content">
+      <div class="slide-bg">
+      <div id="camera_wrap">
+        <div data-src="images/slide1.jpg">
+           
+        </div>
+        <div data-src="images/slide2.jpg">
+         
+        </div>
+        <div data-src="images/slide3.jpg">
+        
+        </div>
+      </div>  
+    </div>
+
+
+    <div class="back-dark">
+      <div class="container">
+               <div class=" owl-carousel" id="owl">
+              <div class="inner-content item">
+             
+              <div class="item-info">
+              <a href="">Save your time with<br> 
+our frozen products</a>
+             
+             </div>
+             
+             
+              </div>
+
+              <div class="inner-content item">
+             
+              <div class="item-info">
+                <a href="">Save your time with<br> 
+our frozen products</a>
+             
+             </div>
+             
+             
+              </div>
+
+            <div class="inner-content item">
+             
+              <div class="item-info">
+               <a href="">Save your time with<br> 
+our frozen products</a>
+             
+             </div>
+             
+             
+              </div>
+            </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+
+      <div class="row"><div class="grid_12">
+        <div class="label-post">
+          <div class="label label-big-icon"><i class="fa fa-clock-o"></i></div>
+          <div class="post-info">
+            <h2 class="dark pb30">It’s Time for Fresh Thinking<br> 
+About Frozen Foods.</h2>
+            <p class="big-p">Mes cuml dia sed ineniasinge dolor ipsum commete ipsum comnetus Mes ineniasinge dolor.
+Dolor ipsum commete ipsum comnetus Mes ineniasinge dolor.</p>
+          </div>
+        </div>
+      </div></div>
+
+      
+    </div>
+
+            <div class="container">
+          <div class=" owl-carousel" >
+              <div class="inner-content item">
+                  <div class="item-title">Full service<br> 
+logistics solutions</div>
+                  <div class="item-quote">Mes cuml dia sed inenias ingerto lot aliiqt<br> dolore ipsum commete.</div>
+              </div>
+
+              <div class="inner-content item">
+                  <div class="item-title">Full service<br> 
+logistics solutions</div>
+                  <div class="item-quote">Mes cuml dia sed inenias ingerto lot aliiqt<br> dolore ipsum commete.</div>
+              </div>
+
+            <div class="inner-content item">
+                  <div class="item-title">Full service<br> 
+logistics solutions</div>
+                  <div class="item-quote">Mes cuml dia sed inenias ingerto lot aliiqt<br> dolore ipsum commete.</div>
+              </div>
+        </div>
+
+      </div>
+
+<div class="back-grey pb8">
+  
+  <div class="container">
+     <div class="wrap3 pt107">
+          <div class="row">
+             <div class="grid_4">
+               <div class="post back-white maxheight align-center">
+                 <div class="post-img"><img src="images/page1_image1.jpg" alt="post image"></div>
+                 <h3 class="dark">Fish<br>
+& Seafood</h3>
+                 <h5 class="blue">dolore ipsum</h5>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum vebiben dum et condimentum metusip dolore ipsum.
+sfaucibus sed dolore ipsum commete.</p>
+                 <a href="" class="more-link"><span class="more">more info</span><i class="fa fa-chevron-right"></i></a>
+               </div>
+             </div>
+             <div class="grid_4">
+               <div class="post back-white maxheight align-center">
+                 <div class="post-img"><img src="images/page1_image2.jpg" alt="post image"></div>
+                 <h3 class="dark">Meat<br>
+& Poultry</h3>
+                 <h5 class="blue">dolore ipsum</h5>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum vebiben dum et condimentum metusip dolore ipsum.
+sfaucibus sed dolore ipsum commete.</p>
+                 <a href="" class="more-link"><span class="more">more info</span><i class="fa fa-chevron-right"></i></a>
+               </div>
+             </div>
+             <div class="grid_4">
+               <div class="post back-white maxheight align-center">
+                 <div class="post-img"><img src="images/page1_image3.jpg" alt="post image"></div>
+                 <h3 class="dark">Fruits<br>
+& Berries</h3>
+                 <h5 class="blue">dolore ipsum</h5>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum vebiben dum et condimentum metusip dolore ipsum.
+sfaucibus sed dolore ipsum commete.</p>
+                 <a href="" class="more-link"><span class="more">more info</span><i class="fa fa-chevron-right"></i></a>
+               </div>
+             </div>
+          </div>
+        </div>
+  </div>
+</div>
+
+
+  <div class="banner1" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <h2 class="white">Processing & Freezing <br>
+Solutions Based on Experience</h2>
+      <a href="" class="button-link">more info</a>
+      <div class="clear"></div>
+    </div>
+    </div>
+       
+       
+
+
+        <div class="back-grey pt107 pb16">
+          <div class="container">
+                       <div class="row">
+            <div class="grid_3 pt87 ">
+             <img src="images/icon1.png" class="no-w" alt="post image">
+              <h4 class="blue pt50">Fish <br>
+& Shellfish</h4>
+              <h5 class="dark1 regular pt6">dolore ipsum</h5>
+              <p class="pt18">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum vebib dum et condimentum metusip dolore</p>
+            
+            </div>
+            <div class="grid_3 pt87 g-pb71">
+              <img src="images/icon2.png" class="no-w" alt="post image">
+              <h4 class="blue pt50">Specific<br> 
+Foods</h4>
+              <h5 class="dark1 regular pt6">dolore ipsum</h5>
+              <p class="pt18">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum vebib dum et condimentum metusip dolore</p>
+            
+            </div>
+            <div class="grid_3 pt87 g-pb71">
+              <img src="images/icon3.png" class="no-w" alt="post image">
+              <h4 class="blue pt50">Fruit<br> 
+Export</h4>
+              <h5 class="dark1 regular pt6">dolore ipsum</h5>
+              <p class="pt18">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum vebib dum et condimentum metusip dolore</p>
+             
+            </div>
+            <div class="grid_3 pt87 g-pb71">
+             <img src="images/icon4.png" class="no-w" alt="post image">
+              <h4 class="blue pt50">Frozen<br> 
+Pizza</h4>
+              <h5 class="dark1 regular pt6">dolore ipsum</h5>
+              <p class="pt18">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum vebib dum et condimentum metusip dolore</p>
+             
+            </div>
+          </div>
+          </div>
+        </div>
+
+
+       
+
+    </section>
+
+    
+    <!--========================================================
+                            FOOTER
+  =========================================================-->
+  <div class="back-dark">
+ <div class="container">
+     <footer class="dark_top_edge back-dark">
+      
+         <div class="row">
+           <div class="grid_2 preffix_1">
+               <div class="footer-logo">
+              <a href="index.html"> <div class="logo-icon"><i class="fa fa-asterisk"></i></div>
+              <div class="logo-text">
+                 <h1>Frozen<br><span class="blue">food</span></h1>
+                
+              </div>
+              <div class="clear"></div></a>
+             
+            </div>
+
+
+            
+            <div class="clear"></div>
+
+           </div>
+           <div class="grid_4">
+          
+           </div>
+           <div class="grid_5">
+             <p><span class="footer-title">Frozen food</span> © <span id="copyright-year"></span> <span class="line">|</span>   <a class="pl9" href="index-5.html">Privacy Policy</a><!--{%FOOTER_LINK} --></p>
+             <ul class="footer-socials">
+               <li><a href=""><i class="fa fa-facebook"></i></a></li>
+               <li><a href=""><i class="fa fa-rss"></i></a></li>
+               <li><a href=""><i class="fa fa-twitter"></i></a></li>
+               <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+             </ul>
+           </div>
+         </div>
+       
+        
+      
+      
+    </footer> 
+    </div>
+   </div>
+    <!--========================================================
+                            END FOOTER
+  =========================================================-->
+  
+
+ <script src="js/script.js"></script>
+
+</body>
+</html>

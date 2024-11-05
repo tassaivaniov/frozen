@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title>Contacts</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-1.2.1.js"></script>
+   <script src="js/jquery.simplr.smoothscroll.min.js"></script>
+   <script src="js/TMForm.js"></script>
+  <script src="js/modal.js"></script>
+  <script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>    
+<!--[if (gt IE 9)|!(IE)]><!-->
+  <script src="js/wow/wow.js"></script>
+  <script>
+    $(document).ready(function () {       
+      if ($('html').hasClass('desktop')) {
+        new WOW().init();
+      }   
+    });
+
+  </script>
+  <!--<![endif]-->
+ <!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+
+
+ 
+</head>
+<body>
+
+  <!--========================================================
+                            HEADER 
+  =========================================================-->
+
+  <header id="header">
+
+    <div class="container">
+      <div class="header-top ">
+                  <div class="header-logo">
+                    <a href="index.html"><div class="icon"><i class="fa fa-asterisk"></i></div><div class="header-info">
+                        <h1>Frozen<br><span class="blue">food</span></h1>
+                       
+                      </div>
+                      <div class="clear"></div>
+                    </a>
+                  </div>
+                 
+              
+
+
+                <div class="header-contacts">
+                  <div class="contact-icon"><img src="images/phone.png" alt="post image"></div>
+                  <div class="contact-info">
+                    <div class="blue">Your first visit? Call for info</div>
+                    <div class="phone">+1-234-567-8900</div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+
+                <div class="clear"></div>
+        </div>
+    </div>
+    
+                
+<div id="stuck_container">
+
+                <div class=" header-bottom align-center">
+                
+
+                  <div class="container">
+                    
+                       <div class="header-navigation">
+                        <nav>
+                          <ul class="sf-menu">
+                            <li ><a href="index.html">Home</a></li>
+                            <li  ><a href="index-1.html">About</a></li>
+                            <li><a href="index-2.html">Products</a>
+                                  <ul>
+                                    <li><a href="#">Dolore ipsu</a></li>
+                                    <li><a href="#">Consecte</a>
+                                      <ul>
+                                        <li><a href="#">Dolore ipsu</a></li>
+                                        <li><a href="#">Consecte</a></li>
+                                        <li><a href="#">Elit Conseq</a></li>
+                                       
+                                      </ul>
+                                    </li>
+                                    <li><a href="#">Elit Conseq</a></li>
+                                    
+                                     
+                                  </ul>
+
+
+                            </li>
+                            <li><a href="index-3.html">Gallery</a></li>
+                            <li class="current"><a href="index-4.html"> contacts</a></li>
+                      
+                          </ul>
+                        </nav>
+                  <div class="clear"></div>
+
+                </div>
+                  </div>
+                 
+                  </div>
+                </div>
+
+
+  </header>
+<!--========================================================
+                            CONTENT 
+  =========================================================-->
+  
+  <section id="content">
+        <div class="block-map">
+      <div class="map">
+             <div class="google-map-api"> 
+                <div id="map-canvas" class="gmap"></div> 
+              </div> 
+      </div>
+
+    </div>
+
+
+    <div class="back-dark">
+      <div class="container">
+        <div class="contact-meta white">
+          <div class="row">
+            <div class="grid_5">
+              <h5 class="white">
+                8901 Marmora Road, Glasgow, D04 89GR.<br>
+Telephone:  +1 800 603 6035<br>
+E-mail: <a href="mailto:mail@demolink.org">mail@demolink.org</a>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+       <h2 class="dark conf-pad-title ">feedback </h2>
+
+             <div class="contact-form-body">
+
+          
+          <form id="contact-form" method="post" action="#">
+             <fieldset>
+               
+                  
+                    <label class="name label1">
+                      <input type="text" name="name" placeholder="Name:" value="" data-constraints="@Required @JustLetters"  />
+                      <span class="empty-message">*This field is required.</span>
+                      <span class="error-message">*This is not a valid name.</span>
+                    </label>
+                
+                  <label class="email label1">
+                    <input type="text" name="email" placeholder="Email:" value="" data-constraints="@Required @Email" />
+                      <span class="empty-message">*This field is required.</span>
+                      <span class="error-message">*This is not a valid email.</span>
+                    </label>
+            
+                    <label class="name phone f_right">
+                      <input type="text" name="last_name" placeholder="Phone:" value="" data-constraints="@Required @JustNumbers"  />
+                      <span class="empty-message">*This field is required.</span>
+                      <span class="error-message">*This is not a valid number.</span>
+                    </label>
+               
+
+               
+                      
+               
+             
+                  <label class="message">
+                      <textarea name="message" rows="7" placeholder="Message:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+                      <span class="empty-message">*This field is required.</span>
+                      <span class="error-message">*The message is too short.</span>
+                    </label>
+                    <!-- <label class="recaptcha"><span class="empty-message">*This field is required.</span></label> -->
+                    <div class="form-buttons">
+                      <div class="button-send">
+                       
+                        <a href="#" class="button-link dark-bord send-button"  data-type="submit" >submit comment</a>
+                        <div class="clear"></div>
+                      </div>
+                    </div>
+          </fieldset> 
+           <div class="modal fade response-message">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                  You message has been sent! We will be in touch soon.
+                </div>      
+              </div>
+            </div>
+          </div>
+          </form>
+          </div>
+    </div>
+
+       
+
+    </section>
+
+    
+    <!--========================================================
+                            FOOTER
+  =========================================================-->
+  <div class="back-dark">
+ <div class="container">
+     <footer class="dark_top_edge back-dark">
+      
+         <div class="row">
+           <div class="grid_2 preffix_1">
+               <div class="footer-logo">
+              <a href="index.html"> <div class="logo-icon"><i class="fa fa-asterisk"></i></div>
+              <div class="logo-text">
+                 <h1>Frozen<br><span class="blue">food</span></h1>
+                
+              </div>
+              <div class="clear"></div></a>
+             
+            </div>
+
+
+            
+            <div class="clear"></div>
+
+           </div>
+           <div class="grid_4">
+          
+           </div>
+           <div class="grid_5">
+             <p><span class="footer-title">Frozen food</span> © <span id="copyright-year"></span> <span class="line">|</span>  <a class="pl9" href="index-5.html">Privacy Policy</a></p>
+             <ul class="footer-socials">
+               <li><a href=""><i class="fa fa-facebook"></i></a></li>
+               <li><a href=""><i class="fa fa-rss"></i></a></li>
+               <li><a href=""><i class="fa fa-twitter"></i></a></li>
+               <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+             </ul>
+           </div>
+         </div>
+       
+        
+      
+      
+    </footer> 
+    </div>
+   </div>
+    <!--========================================================
+                            END FOOTER
+  =========================================================-->
+  
+<script type="text/javascript"> 
+          google_api_map_init(); 
+          function google_api_map_init(){ 
+            var map; 
+            var coordData = new google.maps.LatLng(parseFloat(40.670000), parseFloat(-73.9543068,14)); 
+            var markCoord1 = new google.maps.LatLng(parseFloat(40.670000), parseFloat(-73.9543068,14)); 
+            
+            var marker; 
+ 
+            var styleArray = [
+    {
+        "featureType": "road",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "lightness": 20
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.land_parcel",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.man_made",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#a1cdfc"
+            },
+            {
+                "saturation": 30
+            },
+            {
+                "lightness": 49
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "hue": "#f49935"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "hue": "#fad959"
+            }
+        ]
+    }
+]
+             
+            var markerIcon = { 
+                url: "images/gmap_marker.png", 
+                size: new google.maps.Size(42, 65), 
+                origin: new google.maps.Point(0,0), 
+                anchor: new google.maps.Point(21, 70) 
+            }; 
+            function initialize() { 
+              var mapOptions = { 
+                zoom: 13, 
+                center: coordData, 
+                scrollwheel: false, 
+                styles: styleArray 
+              } 
+ 
+              var contentString = "<div></div>"; 
+              var infowindow = new google.maps.InfoWindow({ 
+                content: contentString, 
+                maxWidth: 200 
+              }); 
+               
+              var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions); 
+              marker = new google.maps.Marker({ 
+                map:map, 
+                position: markCoord1, 
+                icon: markerIcon
+              }); 
+
+
+            google.maps.event.addDomListener(window, 'resize', function() {
+
+              map.setCenter(coordData);
+
+              var center = map.getCenter();
+            });
+          }
+
+            google.maps.event.addDomListener(window, "load", initialize); 
+
+          } 
+
+
+
+           
+      </script>
+ <script src="js/script.js"></script>
+
+</body>
+</html>

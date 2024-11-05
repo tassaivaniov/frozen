@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title>Gallery</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-1.2.1.js"></script>
+   <script src="js/jquery.simplr.smoothscroll.min.js"></script>
+
+ <script src="js/jquery.equalheights.js"></script> 
+<!--[if (gt IE 9)|!(IE)]><!-->
+  <script src="js/wow/wow.js"></script>
+  <script>
+    $(document).ready(function () {       
+      if ($('html').hasClass('desktop')) {
+        new WOW().init();
+      }   
+    });
+
+  </script>
+  <!--<![endif]-->
+ <!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+
+
+    <!-- start gallery scripts -->
+    <link rel="stylesheet" href="gallery/css/tmMultimediaGallery.css">
+    <script src="gallery/js/isotope.pkgd.min.js"></script>
+    <script src="gallery/js/tmFileList.js"></script>
+    <script src="gallery/js/tmPaginationGenerator.js"></script>
+    <script src="gallery/js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="gallery/js/jquery.ui.touch-punch.js"></script>
+    <script src="gallery/js/tmDraggablePagination.js"></script>
+    <script src="gallery/js/tmMultimediaGallery.js"></script>
+    <script src="gallery/js/tmMultimediaGallery_init.js"></script>
+    <!--[if (gt IE 9)|!(IE)]><!-->
+    <script src="gallery/js/jquery.touchSwipe.min.js"></script>
+    <!--<![endif]-->
+    <!-- end gallery scripts -->
+
+
+
+ 
+</head>
+<body>
+
+  <!--========================================================
+                            HEADER 
+  =========================================================-->
+
+  <header id="header">
+
+    <div class="container">
+      <div class="header-top ">
+                  <div class="header-logo">
+                    <a href="index.html"><div class="icon"><i class="fa fa-asterisk"></i></div><div class="header-info">
+                        <h1>Frozen<br><span class="blue">food</span></h1>
+                       
+                      </div>
+                      <div class="clear"></div>
+                    </a>
+                  </div>
+                 
+              
+
+
+                <div class="header-contacts">
+                  <div class="contact-icon"><img src="images/phone.png" alt="post image"></div>
+                  <div class="contact-info">
+                    <div class="blue">Your first visit? Call for info</div>
+                    <div class="phone">+1-234-567-8900</div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+
+                <div class="clear"></div>
+        </div>
+    </div>
+    
+                
+<div id="stuck_container">
+
+                <div class=" header-bottom align-center">
+                
+
+                  <div class="container">
+                    
+                       <div class="header-navigation">
+                        <nav>
+                          <ul class="sf-menu">
+                            <li ><a href="index.html">Home</a></li>
+                            <li  ><a href="index-1.html">About</a></li>
+                            <li><a href="index-2.html">Products</a>
+                                  <ul>
+                                    <li><a href="#">Dolore ipsu</a></li>
+                                    <li><a href="#">Consecte</a>
+                                      <ul>
+                                        <li><a href="#">Dolore ipsu</a></li>
+                                        <li><a href="#">Consecte</a></li>
+                                        <li><a href="#">Elit Conseq</a></li>
+                                       
+                                      </ul>
+                                    </li>
+                                    <li><a href="#">Elit Conseq</a></li>
+                                    
+                                     
+                                  </ul>
+
+
+                            </li>
+                            <li class="current"><a href="index-3.html">Gallery</a></li>
+                            <li><a href="index-4.html"> contacts</a></li>
+                      
+                          </ul>
+                        </nav>
+                  <div class="clear"></div>
+
+                </div>
+                  </div>
+                 
+                  </div>
+                </div>
+
+
+  </header>
+<!--========================================================
+                            CONTENT 
+  =========================================================-->
+
+  <div class="galleryContainer">
+    <!-- spinner -->
+    <div class="imgSpinner"></div>
+    <!-- close button -->
+    <a href="" class="close-icon"><i class="fa fa-times"></i></a>
+
+    <!-- Navigation -->
+    <!-- previous button -->
+    <a href="#" class="prevButton">
+        <i class="fa fa-angle-left"></i>
+    </a>
+    <!-- next button -->
+    <a href="#" class="nextButton">
+        <i class="fa fa-angle-right"></i>
+    </a>
+
+    <!-- main gallery and image holder -->
+    <div class="galleryHolder">
+        <div class="imageHolder">
+            <img src="images/gallery/category5/full/page4_image1.jpg" alt>
+        </div>
+    </div>
+
+    <div class="carousel-holder">
+        <div class="carousel inner">
+            <!-- holder for pagination -->
+        </div>
+        <a href="#" class="prev"><i class="fa fa-angle-left"></i></a>
+        <a href="#" class="next"><i class="fa fa-angle-right"></i></a>
+    </div>
+
+</div>
+
+  
+<section id="content">
+    <div class="container">
+        <div class="wrapper2">
+            <div class="row">
+                <div class="grid_12">
+                  
+                    <div class="__relative">
+                        <div class="content-load-spinner"></div>
+                        <div class="inner">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    <!--========================================================
+                            FOOTER
+  =========================================================-->
+
+  <div class="back-dark down-footer">
+ <div class="container">
+     <footer class="dark_top_edge back-dark">
+      
+         <div class="row">
+           <div class="grid_2 preffix_1">
+               <div class="footer-logo">
+              <a href="index.html"> <div class="logo-icon"><i class="fa fa-asterisk"></i></div>
+              <div class="logo-text">
+                 <h1>Frozen<br><span class="blue">food</span></h1>
+                
+              </div>
+              <div class="clear"></div></a>
+             
+            </div>
+
+
+            
+            <div class="clear"></div>
+
+           </div>
+           <div class="grid_4">
+          
+           </div>
+           <div class="grid_5">
+             <p><span class="footer-title">Frozen food</span> © <span id="copyright-year"></span> <span class="line">|</span>  <a class="pl9" href="index-5.html">Privacy Policy</a></p>
+             <ul class="footer-socials">
+               <li><a href=""><i class="fa fa-facebook"></i></a></li>
+               <li><a href=""><i class="fa fa-rss"></i></a></li>
+               <li><a href=""><i class="fa fa-twitter"></i></a></li>
+               <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+             </ul>
+           </div>
+         </div>
+       
+        
+      
+      
+    </footer> 
+    </div>
+   </div>
+
+    <!--========================================================
+                            END FOOTER
+  =========================================================-->
+  
+
+
+<script>
+    $(function(){
+        pathThumb = 'images/gallery/category5/';
+        pathFull = 'images/gallery/category5/full/';
+    })
+</script>    
+ <script src="js/script.js"></script>
+
+</body>
+</html>
