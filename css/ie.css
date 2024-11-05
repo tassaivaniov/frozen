@@ -1,0 +1,116 @@
+/* Contact Form Processing Box
+========================================================*/
+#contact-form .contact-form-loader { 
+  display: none;
+}
+#contact-form.processing .contact-form-loader {
+  display: block;
+}
+
+.sf-menu,
+.sf-menu li.first,
+.sf-menu li.first a,
+.sf-menu li.last,
+.sf-menu li.last a,
+.sf-menu li a.mains
+    {
+      behavior: url(js/pie.htc); 
+      position:relative;
+    }
+
+    .label
+    {
+      behavior: url(js/pie.htc); 
+      position:relative;
+    }
+
+    .circle-more
+    {
+      behavior: url(js/pie.htc); 
+      position:relative;
+    }
+
+    .icon
+    {
+      behavior: url(js/pie.htc); 
+      position:relative;
+    }
+
+    .circle
+    {
+      behavior: url(js/pie.htc); 
+      position:relative;
+    }
+
+     .circle-icon
+    {
+      behavior: url(js/pie.htc); 
+      position:relative;
+    }
+
+  
+
+    .footer-socials a {
+    	 behavior: url(js/pie.htc); 
+      position:relative;
+    }
+
+    .date {
+    	 behavior: url(js/pie.htc); 
+      position:relative;
+    }
+
+  
+
+  
+
+  .stuck_container {
+    background-color: white;
+  }
+
+  .back3-2 .title-page2 {
+    padding-right: 25px;
+  }
+
+  footer {
+   
+  }
+
+
+
+    img {
+      max-width:auto;
+    }
+
+    .img-span {
+      background: url('../images/opacity_back.png') repeat;
+
+      }
+
+
+      .sf-menu > li > a {
+display: inline-block;
+padding: 23px 80px;
+}
+
+footer .footer-logo .logo-icon {
+float: left;
+}
+
+
+footer .footer-logo .logo-text {
+float: right;
+padding-left: 11px;
+padding-top: 9px;
+}
+
+footer .footer-logo h1 {
+font-size: 32px; 
+
+}
+    
+
+    .owl-page .owl-prev:before, .owl-page .owl-next:before { 
+
+text-align: center;
+    }

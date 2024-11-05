@@ -1,0 +1,40 @@
+body {
+  background: #f1f1f1;
+  position: relative;
+  height: 100%;
+}
+html {
+  height: 100%;
+}
+
+.header {
+  background: #529abb;
+  color: #fff;
+  padding: 20px 20px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+h1 {
+  margin: 0;
+}
+small {
+  color: #fff !important;
+  font-size: 13px !important;
+}
+
+#content{
+  position: relative;
+  padding: 24px 0;
+  z-index: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #529abb;
+  color: #fff;
+  position: relative;
+  width: 100%;
+  margin-top: 70px;
+}
